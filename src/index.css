@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-indigo-500: #6366f1;
+  --color-indigo-600: #4f46e5;
+}
+
+/* Custom Utilities */
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Theme-responsive Prose */
+.prose {
+  --tw-prose-body: currentColor;
+  --tw-prose-headings: currentColor;
+  --tw-prose-lead: currentColor;
+  --tw-prose-links: #6366f1;
+  --tw-prose-bold: currentColor;
+  --tw-prose-counters: currentColor;
+  --tw-prose-bullets: currentColor;
+  --tw-prose-hr: currentColor;
+  --tw-prose-quotes: currentColor;
+  --tw-prose-quote-borders: currentColor;
+  --tw-prose-captions: currentColor;
+  --tw-prose-code: currentColor;
+  --tw-prose-pre-code: currentColor;
+  --tw-prose-pre-bg: rgba(0,0,0,0.3);
+  --tw-prose-th-borders: currentColor;
+  --tw-prose-td-borders: currentColor;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Knowledge Agent v3.0",
+  "description": "An AI-driven Obsidian knowledge transformation protocol that converts complex documents (PDF, EPUB, DOCX, FB JSON) into structured Markdown with semantic reconstruction, graph interlinking, and comprehensive 4000-word synthesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
